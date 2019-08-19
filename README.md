@@ -2,7 +2,7 @@
 A collection of SourceTree custom actions
 
 ## How To
-- copy desired script to your pc
+- copy desired script from commands folder to your pc
 - go to SourceTree > Tools > Options > Custom Actions > Add and fill Custom Action as follow (egg for script to copy tags):
   - Menu caption: Copy Tag
   - Open in a separate window (false)
