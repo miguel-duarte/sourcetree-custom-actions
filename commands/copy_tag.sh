@@ -24,5 +24,5 @@ for k in "$array"; do
 		str=${str#*"$delimiter"};
 	done;
 done
-declare -p finalArray
-echo $finalArray | clip
+
+echo $finalArray | sed 's/(//' | sed 's/)//' | clip
